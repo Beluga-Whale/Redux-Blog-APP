@@ -1,6 +1,5 @@
-import React from 'react'
-import { useDispatch } from 'react-redux'
-import { reactionAdded } from './postsSlice'
+import { useDispatch } from "react-redux";
+import { reactionAdded } from "./postsSlice";
 
 const reactionEmoji = {
     thumbsUp: '👍',
@@ -31,4 +30,3 @@ const ReactionButtons = ({ post }) => {
     return <div>{reactionButtons}</div>
 }
 export default ReactionButtons
-

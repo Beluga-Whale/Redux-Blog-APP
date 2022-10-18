@@ -1,7 +1,6 @@
-import React from 'react'
-import PostAuthor from './PostAuthor'
-import ReactionButtons from './ReactionButtons'
-import TimeAgo from './TimeAgo'
+import PostAuthor from "./PostAuthor";
+import TimeAgo from "./TimeAgo";
+import ReactionButtons from "./ReactionButtons";
 
 const PostsExcerpt = ({ post }) => {
     return (
@@ -16,5 +15,4 @@ const PostsExcerpt = ({ post }) => {
         </article>
     )
 }
-
 export default PostsExcerpt
